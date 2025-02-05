@@ -16,6 +16,11 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  server: {
+    host: '0.0.0.0',  // Permite acceder desde otros dispositivos
+    port: 5173,       // Puedes cambiar el puerto si es necesario
+    strictPort: true, // Se asegura de usar ese puerto y no otro
+  },
   test: {
     globals: true,
     environment: 'jsdom'
