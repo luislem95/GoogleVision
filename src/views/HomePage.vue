@@ -64,7 +64,7 @@ export default defineComponent({
     const procesarTexto = async () => {
       if (!imagen.value) return;
 
-      const apiKey = "AIzaSyDMz9RhWG5zhNs1zgRR_dkV10v3vYyyyHk"; // 🔥 Reemplázala con tu clave de Google Cloud Vision
+      const apiKey = "<apikey aqui>"; // Reemplázala con tu clave de Google Cloud Vision
 
       const requestData = {
         requests: [
